@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do you love me, Urmila?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="tenor-gif-embed" data-postid="22885016" data-share-method="host" data-aspect-ratio="1.04918" data-width="100%">
+      <a href="https://tenor.com/view/manja-gif-22885016">Manja Sticker</a> from
+      <a href="https://tenor.com/search/manja-stickers">Manja Stickers</a>
+    </div>
+    <script async src="https://tenor.com/embed.js"></script>
+
+    <h1>Do you love me, Urmila Singh? 🤗</h1>
+    <p>From: <strong>Bikash 💌</strong></p>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes ❤️</button>
+      <button id="noBtn">No 💔</button>
+    </div>
+  </div>
+
+  <script>
+    const yesBtn = document.getElementById("yesBtn");
+    const noBtn = document.getElementById("noBtn");
+
+    yesBtn.addEventListener("click", () => {
+      alert("I love you too, Urmila ❤️ - From Bikash");
+    });
+
+    noBtn.addEventListener("mouseover", () => {
+      noBtn.style.position = "absolute";
+      noBtn.style.top = Math.random() * (window.innerHeight - 50) + "px";
+      noBtn.style.left = Math.random() * (window.innerWidth - 100) + "px";
+    });
+  </script>
+</body>
+</html>
